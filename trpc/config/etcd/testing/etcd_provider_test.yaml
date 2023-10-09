@@ -1,0 +1,10 @@
+plugins:
+  config:
+    etcd:
+      providers:
+        - name: etcd1
+          endpoint: "http://127.0.0.1:2379"
+          prefix: ""
+        - name: etcd2
+          endpoint: "http://127.0.0.1:2380"
+          prefix: ""
