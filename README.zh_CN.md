@@ -1,6 +1,9 @@
 [English](./README.md)
 
-[TOC]
+[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-green.svg)](https://github.com/trpc-ecosystem/cpp-config-etcd/blob/main/LICENSE)
+[![Releases](https://img.shields.io/github/release/trpc-ecosystem/cpp-config-etcd.svg?style=flat-square)](https://github.com/trpc-ecosystem/cpp-config-etcd/releases)
+[![Build Status](https://github.com/trpc-ecosystem/cpp-config-etcd/actions/workflows/ci.yml/badge.svg)](https://github.com/trpc-ecosystem/cpp-config-etcd/actions/workflows/ci.yml)
+[![Coverage](https://codecov.io/gh/trpc-ecosystem/cpp-config-etcd/branch/main/graph/badge.svg)](https://app.codecov.io/gh/trpc-ecosystem/cpp-config-etcd/tree/main)
 
 # 前言
 
