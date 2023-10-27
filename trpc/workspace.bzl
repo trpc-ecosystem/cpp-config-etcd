@@ -24,3 +24,16 @@ def config_etcd_workspace(path_prefix = "", repo_name = "", **kwargs):
         Here, `xxx` is the specific specified version. If the version is not specified through the key,
         the default value will be used. eg: protobuf_ver = kwargs.get("protobuf_ver", "3.8.0")
     """
+
+    native.new_local_repository(
+        name = "com_github_etcd_cpp_apiv3_etcd_cpp_apiv3",
+        path = "/usr/local",
+        build_file = "//third_party/com_github_etcd_cpp_apiv3_etcd_cpp_apiv3:etcd_cpp_apiv3.BUILD",
+    )
+
+    native.new_local_repository(
+        name = "com_github_microsoft_cpprestsdk",
+        path = "/usr/local",
+        build_file = "//third_party/com_github_microsoft_cpprestsdk:cpprestsdk.BUILD",
+    )
+

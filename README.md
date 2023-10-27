@@ -1,8 +1,6 @@
 [中文](./README.zh_CN.md)
 
-[TOC]
-
-# Introduction
+# Overview
 
 [Etcd](https://etcd.io/)  is a highly available key-value storage system for shared configuration and service discovery. It is developed by CoreOS for distributed system configuration management and service discovery. To facilitate users to connect to the Etcd system, we provide the Etcd data source plugin, which allows users to easily load configuration data from etcd clusters and use this data in their programs.
 

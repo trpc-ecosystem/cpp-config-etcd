@@ -6,7 +6,6 @@ cc_library(
     name = "etcd_cpp_apiv3",
     hdrs = glob(["include/etcd/**/*.hpp"]),
     srcs = glob(["lib64/libetcd-cpp-api.*"]),
-    includes = ["include/etcd"],
     deps = [
         "@com_github_microsoft_cpprestsdk//:cpprestsdk",
     ],
