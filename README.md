@@ -144,3 +144,9 @@ For the server scenario, the user needs to call it in the TrpcApp::RegisterPlugi
     etcdctl get salutation_config.json
     ```
 * For more information on how to use the etcdctl tool, see [Etcd](https://etcd.io/docs/) In official documents [Interacting with etcd](https://etcd.io/docs/v3.5/dev-guide/interacting_v3/) parts.
+
+# LICENSE
+
+[LICENSE](LICENSE)
+
+The copyright notice pertaining to the Tencent code in this repo was previously in the name of “THL A29 Limited.”  That entity has now been de-registered.  You should treat all previously distributed copies of the code as if the copyright notice was in the name of “Tencent.”
